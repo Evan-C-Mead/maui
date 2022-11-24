@@ -14,7 +14,7 @@ public partial class MainPage : ContentPage
 		count++;
 
 		if (count == 0)
-			ClickedCount.Text = "Let's count";
+			ClickedCount.Text = "Up, up, up!";
 		else
             ClickedCount.Text = $"The count is: {count}";
 
@@ -26,7 +26,7 @@ public partial class MainPage : ContentPage
 		count--;
 
         if (count == 0)
-            ClickedCount.Text = "Let's count";
+            ClickedCount.Text = "Going down?";
         else
             ClickedCount.Text = $"The count is: {count}";
 
